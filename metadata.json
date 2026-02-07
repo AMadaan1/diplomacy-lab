@@ -1,0 +1,7 @@
+{
+  "name": "Diplomacy Lab",
+  "description": "Premium Model UN consultancy providing expert feedback, specialized academic lectures, and an AI-powered research portal for students.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
