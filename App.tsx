@@ -7,6 +7,7 @@ import ConsultingPage from './components/ConsultingPage';
 import AboutPage from './components/AboutPage';
 import PrivacyPolicyPage from './components/PrivacyPolicyPage';
 import TermsOfServicePage from './components/TermsOfServicePage';
+import AdminPage from './components/AdminPage';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
 
@@ -25,6 +26,7 @@ function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/privacy" element={<PrivacyPolicyPage />} />
             <Route path="/terms" element={<TermsOfServicePage />} />
+            <Route path="/admin" element={<AdminPage />} />
             <Route 
               path="/research" 
               element={<ResearchPortal isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />} 
