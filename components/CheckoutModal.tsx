@@ -17,6 +17,20 @@ const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose, serviceN
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setStep('processing');
+    
+    // Save to localStorage
+    const newRegistration = {
+      id: crypto.randomUUID(),
+      name: formData.name,
+      email: formData.email,
+      service: serviceName,
+      price: price,
+      date: new Date().toISOString()
+    };
+
+    const existingRegistrations = JSON.parse(localStorage.getItem('registrations') || '[]');
+    localStorage.setItem('registrations', JSON.stringify([newRegistration, ...existingRegistrations]));
+
     setTimeout(() => {
       setStep('success');
     }, 1500);
