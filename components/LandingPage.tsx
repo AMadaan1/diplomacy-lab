@@ -90,12 +90,12 @@ const LandingPage: React.FC = () => {
 
           <div 
             ref={heroContentRef}
-            className="apple-transform relative z-10 text-center px-4 flex flex-col items-center justify-center max-w-6xl w-full pb-12 sm:pb-20 lg:pb-32"
+            className="apple-transform relative z-10 text-center px-4 flex flex-col items-center justify-center max-w-6xl w-full pb-24 sm:pb-32 lg:pb-40 pt-40 sm:pt-48"
           >
             <span className="inline-block px-4 py-1.5 rounded-full bg-blue-500/10 text-blue-400 text-[10px] font-black uppercase tracking-[0.5em] mb-4 sm:mb-8 border border-blue-500/20 backdrop-blur-md animate-in fade-in slide-in-from-bottom-4 duration-1000">
               Established 2026
             </span>
-            <h1 className="text-4xl sm:text-6xl md:text-8xl lg:text-[9rem] xl:text-[10rem] font-bold tracking-tighter leading-none mb-6 lg:mb-10 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-100 text-white">
+            <h1 className="text-4xl sm:text-6xl md:text-8xl lg:text-[7rem] xl:text-[8rem] font-bold tracking-tighter leading-none mb-6 lg:mb-10 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-100 text-white">
               Diplomacy <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-200 to-white italic">Reimagined.</span>
             </h1>
@@ -108,6 +108,22 @@ const LandingPage: React.FC = () => {
                 <svg className="w-5 h-5 group-hover:translate-x-2 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>
               <Link to="/classes" className="bg-white/5 backdrop-blur-2xl text-white px-8 lg:px-12 py-3 lg:py-5 rounded-full font-bold text-sm lg:text-lg border border-white/10 hover:bg-white/10 transition-all hover:scale-105 flex items-center justify-center">Join a Class</Link>
+            </div>
+
+            {/* Stats Section */}
+            <div className="grid grid-cols-3 gap-8 sm:gap-12 mt-12 sm:mt-16 animate-in fade-in slide-in-from-bottom-20 duration-1000 delay-500 border-t border-white/10 pt-8 sm:pt-12 w-full max-w-2xl px-6">
+              <div className="text-center">
+                <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-1 sm:mb-2">1</div>
+                <div className="text-[10px] sm:text-xs uppercase tracking-[0.2em] text-blue-400 font-bold">Conference</div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-1 sm:mb-2">2</div>
+                <div className="text-[10px] sm:text-xs uppercase tracking-[0.2em] text-blue-400 font-bold">Awards</div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-1 sm:mb-2">1</div>
+                <div className="text-[10px] sm:text-xs uppercase tracking-[0.2em] text-blue-400 font-bold">Gavel</div>
+              </div>
             </div>
           </div>
 
