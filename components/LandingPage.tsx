@@ -110,21 +110,7 @@ const LandingPage: React.FC = () => {
               <Link to="/classes" className="bg-white/5 backdrop-blur-2xl text-white px-8 lg:px-12 py-3 lg:py-5 rounded-full font-bold text-sm lg:text-lg border border-white/10 hover:bg-white/10 transition-all hover:scale-105 flex items-center justify-center">Join a Class</Link>
             </div>
 
-            {/* Stats Section */}
-            <div className="grid grid-cols-3 gap-8 sm:gap-12 mt-12 sm:mt-16 animate-in fade-in slide-in-from-bottom-20 duration-1000 delay-500 border-t border-white/10 pt-8 sm:pt-12 w-full max-w-2xl px-6">
-              <div className="text-center">
-                <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-1 sm:mb-2">1</div>
-                <div className="text-[10px] sm:text-xs uppercase tracking-[0.2em] text-blue-400 font-bold">Conference</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-1 sm:mb-2">2</div>
-                <div className="text-[10px] sm:text-xs uppercase tracking-[0.2em] text-blue-400 font-bold">Awards</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-1 sm:mb-2">1</div>
-                <div className="text-[10px] sm:text-xs uppercase tracking-[0.2em] text-blue-400 font-bold">Gavel</div>
-              </div>
-            </div>
+            {/* Stats Section moved to Section 2 */}
           </div>
 
           <div 
@@ -140,6 +126,23 @@ const LandingPage: React.FC = () => {
       {/* SECTION 2: THE CURRICULUM */}
       <section className="relative z-10 bg-white text-slate-900 rounded-t-[4rem] md:rounded-t-[8rem] shadow-[0_-100px_100px_rgba(0,0,0,0.4)]">
         <div className="max-w-7xl mx-auto px-6 py-40 md:py-60">
+          
+          {/* Stats Section */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-32 reveal">
+            <div className="bg-slate-900 p-10 rounded-[2.5rem] text-center text-white hover:scale-105 transition-transform duration-500 shadow-2xl">
+               <div className="text-6xl font-black mb-4 tracking-tighter">1</div>
+               <div className="text-xs uppercase tracking-[0.3em] text-blue-400 font-bold">Conference</div>
+            </div>
+            <div className="bg-blue-900 p-10 rounded-[2.5rem] text-center text-white hover:scale-105 transition-transform duration-500 shadow-2xl">
+               <div className="text-6xl font-black mb-4 tracking-tighter">2</div>
+               <div className="text-xs uppercase tracking-[0.3em] text-blue-200 font-bold">Awards</div>
+            </div>
+            <div className="bg-slate-900 p-10 rounded-[2.5rem] text-center text-white hover:scale-105 transition-transform duration-500 shadow-2xl">
+               <div className="text-6xl font-black mb-4 tracking-tighter">1</div>
+               <div className="text-xs uppercase tracking-[0.3em] text-blue-400 font-bold">Gavel</div>
+            </div>
+          </div>
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 lg:gap-40 items-center">
             <div className="reveal">
               <span className="text-blue-600 font-black uppercase tracking-[0.5em] text-[10px] mb-8 block">01 / Technical Curriculum</span>
