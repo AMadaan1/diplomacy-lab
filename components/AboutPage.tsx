@@ -43,7 +43,7 @@ const AboutPage: React.FC = () => {
                     </div>
                   </div>
                   <p className="text-slate-200 text-xl leading-relaxed font-light">
-                    "A Harvard MUN veteran and Best Delegate recipient with a pedigree of 13+ conferences. Arjun balances master-level rhetoric with applied technical expertise from Stanford and Brown, engineering competitive excellence."
+                    "A Harvard MUN veteran and Best Delegate recipient with a pedigree of 14+ conferences. Arjun balances master-level rhetoric with applied technical expertise from Stanford and Brown, engineering competitive excellence."
                   </p>
                 </div>
                 <div className="mt-12 flex flex-wrap gap-3">
