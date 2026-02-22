@@ -27,7 +27,7 @@ export const Navbar: React.FC<NavbarProps> = ({ isLoggedIn }) => {
           <div className="flex items-center space-x-8">
             <Link to="/consulting" className={navLinkClass('/consulting')}>Consulting</Link>
             <Link to="/classes" className={navLinkClass('/classes')}>Classes</Link>
-            <Link to="/about" className={navLinkClass('/about')}>About</Link>
+            <Link to="/about" className={navLinkClass('/team')}>Our Team</Link>
             <Link 
               to="/research" 
               className={`px-5 py-2 rounded-full text-sm font-bold transition-all ${
