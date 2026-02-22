@@ -128,8 +128,8 @@ const LandingPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6 py-40 md:py-60">
           
           {/* Stats Section */}
+          <h2 className="text-5xl md:text-8xl font-bold mb-10 tracking-tighter leading-[1.1] text-slate-900">Stats Since Founding</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-32 reveal">
-            <h2 className="text-5xl md:text-8xl font-bold mb-10 tracking-tighter leading-[1.1] text-slate-900">Stats Since Founding</h2>
             <div className="bg-slate-900 p-10 rounded-[2.5rem] text-center text-white hover:scale-105 transition-transform duration-500 shadow-2xl">
                <div className="text-6xl font-black mb-4 tracking-tighter">1</div>
                <div className="text-xs uppercase tracking-[0.3em] text-blue-400 font-bold">Conference(s)</div>
