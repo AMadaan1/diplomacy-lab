@@ -90,7 +90,7 @@ const LandingPage: React.FC = () => {
 
           <div 
             ref={heroContentRef}
-            className="apple-transform relative z-10 text-center px-4 flex flex-col items-center justify-center max-w-6xl w-full pb-24 sm:pb-32 lg:pb-40 pt-40 sm:pt-48"
+            className="apple-transform relative z-10 text-center px-4 flex flex-col items-center justify-center max-w-6xl w-full pb-16 sm:pb-24 lg:pb-32 pt-32 sm:pt-40"
           >
             <span className="inline-block px-4 py-1.5 rounded-full bg-blue-500/10 text-blue-400 text-[10px] font-black uppercase tracking-[0.5em] mb-4 sm:mb-8 border border-blue-500/20 backdrop-blur-md animate-in fade-in slide-in-from-bottom-4 duration-1000">
               Established 2026
