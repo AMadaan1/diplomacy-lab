@@ -90,16 +90,16 @@ const LandingPage: React.FC = () => {
 
           <div 
             ref={heroContentRef}
-            className="apple-transform relative z-10 text-center px-4 flex flex-col items-center justify-center max-w-6xl w-full pb-16 sm:pb-24 lg:pb-32 pt-32 sm:pt-40"
+            className="apple-transform relative z-10 text-center px-4 flex flex-col items-center justify-center max-w-6xl w-full py-12 sm:py-20"
           >
-            <span className="inline-block px-4 py-1.5 rounded-full bg-blue-500/10 text-blue-400 text-[10px] font-black uppercase tracking-[0.5em] mb-4 sm:mb-8 border border-blue-500/20 backdrop-blur-md animate-in fade-in slide-in-from-bottom-4 duration-1000">
+            <span className="inline-block px-4 py-1.5 rounded-full bg-blue-500/10 text-blue-400 text-[10px] font-black uppercase tracking-[0.5em] mb-4 sm:mb-6 border border-blue-500/20 backdrop-blur-md animate-in fade-in slide-in-from-bottom-4 duration-1000">
               Established 2026
             </span>
-            <h1 className="text-4xl sm:text-6xl md:text-8xl lg:text-[7rem] xl:text-[8rem] font-bold tracking-tighter leading-none mb-6 lg:mb-10 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-100 text-white">
+            <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-[6rem] xl:text-[7rem] font-bold tracking-tighter leading-none mb-4 lg:mb-8 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-100 text-white">
               Diplomacy <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-200 to-white italic">Reimagined.</span>
             </h1>
-            <p className="text-base sm:text-xl md:text-2xl lg:text-3xl text-slate-300 max-w-2xl mx-auto font-light leading-snug mb-8 lg:mb-12 animate-in fade-in slide-in-from-bottom-12 duration-1000 delay-200 px-4">
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-slate-300 max-w-2xl mx-auto font-light leading-snug mb-6 lg:mb-10 animate-in fade-in slide-in-from-bottom-12 duration-1000 delay-200 px-4">
               Technical literacy and expert strategic analysis for the next generation of global leaders.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4 lg:gap-6 w-full sm:w-auto animate-in fade-in slide-in-from-bottom-16 duration-1000 delay-300 px-6">
